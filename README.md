@@ -36,6 +36,7 @@ Rest coming soon™
 > [p] will be your prefix.
 
 # Plugins
+Updated 8/28/19
 
 | <img src="https://i.imgur.com/ijwqMwS.png" alt="Coda Cogs" width="100"></a> | <img src="https://i.imgur.com/pjJiTSF.png" alt="Coda Cogs" width="100"></a> | <img src="https://i.imgur.com/T4buJlv.png" alt="Coda Cogs" width="100"></a> | <img src="https://notsobot.com/assets/img/logo.png" alt="Coda Cogs" width="100"></a> | <img src="https://i.imgur.com/Q8tlPj6.png" alt="Coda Cogs" width="100"></a> |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|------------------------------------------------------------------|
