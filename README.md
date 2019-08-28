@@ -36,7 +36,6 @@ Rest coming soon™
 > [p] will be your prefix.
 
 # Plugins
-Updated 8/28/19
 
 | <img src="https://i.imgur.com/ijwqMwS.png" alt="Coda Cogs" width="100"></a> | <img src="https://i.imgur.com/pjJiTSF.png" alt="Coda Cogs" width="100"></a> | <img src="https://i.imgur.com/T4buJlv.png" alt="Coda Cogs" width="100"></a> | <img src="https://notsobot.com/assets/img/logo.png" alt="Coda Cogs" width="100"></a> | <img src="https://i.imgur.com/Q8tlPj6.png" alt="Coda Cogs" width="100"></a> |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|------------------------------------------------------------------|
@@ -44,7 +43,9 @@ Updated 8/28/19
 |<img src="https://i.imgur.com/nFEY62O.png" alt="Coda Cogs" width="100"></a>  | <img src="https://i.imgur.com/VRGFZfa.png" alt="Coda Cogs" width="100"></a> | <img src="https://i.imgur.com/mdrUYVs.png" alt="Coda Cogs" width="100"></a> | <img src="https://i.imgur.com/ZUYTrcw.png" alt="Coda Cogs" width="100"></a> | <img src="https://i.imgur.com/kWIFqNM.png" alt="Coda Cogs" width="100"></a> |
 | [Raffle]() | [RSS]() | [SCP]() | [Starboard]() | [Unique Name]() |
 | <img src="https://i.imgur.com/BPImYT0.png" alt="Coda Cogs" width="100"></a> | <img src="https://i.imgur.com/qV2yHfw.png" alt="Coda Cogs" width="100"></a> | <img src="https://i.imgur.com/aUEofks.png" alt="Coda Cogs" width="100"></a> | <img src="https://i.imgur.com/0YIqSsR.png" alt="Coda Cogs" width="100"></a> |   <img src="https://i.imgur.com/eTeQymH.png" alt="Coda Cogs" width="100"></a> |
-| [Update Notify]() | [User Log]() |  [Welcome]() |  [Whitelist]() |  [Blacklist]() |                                                                  |
+| [Update Notify]() | [User Log]() |  [Welcome]() |  [Whitelist]() |  [Blacklist]() |
+| <img src="https://i.imgur.com/UTG2Czn.png" alt="Coda Cogs" width="100"></a> | | | | |
+| [Youtube]() |  |  |  |  |                                                                       |
 
 # Support
 Please do not contact me for issues with these cogs.<br>
