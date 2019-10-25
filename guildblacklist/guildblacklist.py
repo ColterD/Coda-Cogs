@@ -24,9 +24,10 @@ class GuildBlacklist(commands.Cog):
     the server's ID, or the serverowner's ID
     """
 
-    __version__ = "2.0.1"
+    __version__ = "2.0.2"
 
     def __init__(self, bot):
+        super().__init__()
         self.bot = bot
         self.config = Config.get_conf(
             self, identifier=78631113035100160, force_registration=True
@@ -56,7 +57,7 @@ class GuildBlacklist(commands.Cog):
         If the ID of a user, any guild owned by this user will be
         treated as if it were blacklisted.
         """
-        if len(ids) == 0:
+        if not ids:
             return await ctx.send_help()
 
         async with self.config.blacklist() as blacklist:
@@ -83,7 +84,7 @@ class GuildBlacklist(commands.Cog):
         """
         remove one or more ids from the blacklist
         """
-        if len(ids) == 0:
+        if not ids:
             return await ctx.send_help()
 
         async with self.config.blacklist() as blacklist:

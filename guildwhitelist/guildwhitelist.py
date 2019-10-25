@@ -2,7 +2,6 @@ import logging
 
 import discord
 from redbot.core import Config
-from redbot.core import __version__ as redversion
 from redbot.core import commands, checks
 from redbot.core.i18n import Translator, cog_i18n
 from redbot.core.utils.chat_formatting import box, pagify
@@ -28,9 +27,10 @@ class GuildWhitelist(commands.Cog):
     or whose owner is not whitelisted or the owner of the bot
     """
 
-    __version__ = "2.0.1"
+    __version__ = "2.0.2"
 
     def __init__(self, bot):
+        super().__init__()
         self.bot = bot
         self.config = Config.get_conf(
             self, identifier=78631113035100160, force_registration=True
@@ -62,7 +62,7 @@ class GuildWhitelist(commands.Cog):
         If the ID of a user, any guild owned by this user will be
         treated as if it were whitelisted.
         """
-        if len(ids) == 0:
+        if not ids:
             return await ctx.send_help()
 
         async with self.config.whitelist() as whitelist:
@@ -90,7 +90,7 @@ class GuildWhitelist(commands.Cog):
         """
         remove one or more ids from the whitelist
         """
-        if len(ids) == 0:
+        if not ids:
             return await ctx.send_help()
 
         async with self.config.whitelist() as whitelist:
